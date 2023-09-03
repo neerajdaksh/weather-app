@@ -16,4 +16,73 @@ body{
 main{
     width: 100%;
     height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.container{
+   width: 350px;
+   height: 300px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.017);
+  border-radius: 16px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.006);
+  backdrop-filter: blur(5px);
+   
+}
+
+.container .search-box input[type]{
+  width: 240px;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#city-name::placeholder{
+    color: rgba(229, 229, 229, 0.876);
+}
+#search-btn{
+width: 80px;
+padding: 8px 0px;
+font-size: 1.1rem;
+margin-left:5px ;
+border-radius: 5px;
+border: 1px solid white;
+background-color: transparent;
+color: white;
+transition: 0.3s;
+}
+
+#search-btn:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.display-data{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.display-data h5{
+    font-size: 3rem;
+}
+.display-data h5 span{
+    font-size: 2rem;
+}
+.display-data h4{
+    font-size: 3rem;
+}
+.display-data h6{
+    font-size: 1.3rem;
+}
+.display-data .data{
+    margin: 5px;
 }
