@@ -9,12 +9,13 @@
 <body>
 <main>
  <div class="container">
-   <div class="search-box"><input type="text" id="city-name" placeholder="Enter a City Name"><button id="search-btn">Search</button></div>
+   <div class="search-box"><input type="text" id="city-text" placeholder="Enter a City Name"><button id="search-btn">Search</button></div>
    <div class="display-data">
-     <div class="data"><h4>Rishikesh</h4></div>   
+     <div class="data"><h4 id="city-name">Rishikesh <span>,</span> <span id="coutry">In</span></h4></div>   
      <div class="data"><h6>03-09-2023</h6> </div>   
-     <div class="data"><h5>25.1 <sup><span>&#176;</span></sup>  <span>C</span></h5></div>   
-     <div class="data"></div> 
+     <div class="data"><h5><span id="temp">25.1 <sup><span>&#176;</span></sup>  <span id="cel">C</span></h5></div>   
+     <div class="data"><img src="" alt="" id="icon"></div> 
+     <div class="data"><span id="discription">c</span></div> 
     
        
        
@@ -27,6 +28,6 @@
 
 </main>
 
-    
+    <script src="app.js"></script>
 </body>
 </html>
