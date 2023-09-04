@@ -26,7 +26,6 @@ main{
 
 .container{
    width: 350px;
-   height: 300px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.017);
   border-radius: 16px;
@@ -72,26 +71,20 @@ transition: 0.3s;
     text-align: center;
     color: white;
 }
-
-.display-data h5 #temp{
-    font-size: 3rem;
-    
-}
-.display-data h5 #cel{
-
-    font-size: 2rem;
-    
-}
+ 
+ 
 .display-data #city-name{
     font-size: 1.6rem;
     margin-top: 20px;
 }
-.display-data h4 #coutry{
-    
-}
-.display-data h6{
-    font-size: 1rem;
-}
+ 
+ 
 .display-data .data{
     margin: 5px;
 }
+.display-data .data  span{
+font-size: 1.3rem;
+}
+
+
+ 
